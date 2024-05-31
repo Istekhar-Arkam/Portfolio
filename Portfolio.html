@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <title>My Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/842bd29fd9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--    Home    -->
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1><span>I.</span>Arkam</h1>
+
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <i class="fa-regular fa-circle-xmark icon"onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars icon"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-end Developer</p>
+          <h1>Hi, I'm <span>Istekhar</span> Arkam</h1>
+        </div>
+      </div>
+    </div>
+
+    <!--    about    -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/about me.jpg" alt="user-pic" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p id="about-yourself">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              omnis pariatur tempore consequatur incidunt, provident
+              perspiciatis, magnam labore maxime nam, repudiandae culpa ratione
+              iusto laborum fugit doloremque deleniti temporibus exercitationem.
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('strength')">Strength</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                <li><span>Front-end Development</span></li>
+                <li>Html</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+                <li>Reactjs</li>
+                <li>Git & Github</li>
+              </ul>
+            </div>
+            <div class="tab-content" id="strength">
+              <ul>
+                <li>Hard working and honest</li>
+                <li>Discipline</li>
+                <li>quick learner</li>
+                <li>responsible</li>
+                <li>self-motivated</li>
+              </ul>
+            </div>
+            <div class="tab-content" id="education">
+              <ul>
+                <li><span>matriculation</span></li>
+                <li>st's xavier english school</li>
+                <li><span>intermediate</span></li>
+                <li>r.p. sarangi inter college</li>
+                <li><span>Graduation</span></li>
+                <li>bachelor of arts from kolhan university</li>
+                <li><span>Relevant coursework</span></li>
+                <li>computer technology, advance application of programing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--      service      -->
+
+    <div id="service">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+              repellendus. Nulla quam veritatis eveniet culpa nobis voluptates
+              magni, voluptate ipsam, porro neque odio, sequi rerum officiis.
+              Repellendus maiores voluptatum alias!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-dice-d6"></i>
+            <h2>Game</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+              repellendus. Nulla quam veritatis eveniet culpa nobis voluptates
+              magni, voluptate ipsam, porro neque odio, sequi rerum officiis.
+              Repellendus maiores voluptatum alias!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+              repellendus. Nulla quam veritatis eveniet culpa nobis voluptates
+              magni, voluptate ipsam, porro neque odio, sequi rerum officiis.
+              Repellendus maiores voluptatum alias!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/work-1.png" />
+            <div class="layer">
+              <h3>Stone Paper Scissors</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Provident quisquam enim autem delectus.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/work-2.png" />
+            <div class="layer">
+              <h3>Amazon Clone</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Provident quisquam enim autem delectus.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/work-3.png" />
+            <div class="layer">
+              <h3>Calculator</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Provident quisquam enim autem delectus
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--     contact     -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-regular fa-paper-plane"></i>istekhararkam25@gmail.com
+            </p>
+            <p><i class="fa-solid fa-mobile-screen"></i>9534068486</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://in.linkedin.com/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="image/Istekhar arkam.pdf" class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button class="btn btn2" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!--     copyright     -->
+
+      <div class="copyright">
+        <p>
+          Copyright IArkam. Made with <i class="fa-solid fa-heart"></i> Vanilla-HTML ,CSS & JAVASCRIPT.
+         
+        </p>
+      </div>
+    </div>
+
+    <script src="Portfolio.js"></script>
+  </body>
+</html>
