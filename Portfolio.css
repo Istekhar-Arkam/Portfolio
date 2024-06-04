@@ -405,4 +405,11 @@ flex-basis: 100%;
 .copyright{
 font-size: 0.75rem;
 }
+.contact-right form input form textarea{
+  width:100%;
+}
+#contact{
+  padding:30px 10px;
+}
+
 }
